@@ -1,2 +1,0 @@
-jupyterlab>=4.0
-jupyterlab-git>=0.41
