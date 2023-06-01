@@ -1,10 +1,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/julienpaul/gitintro.git/HEAD)
 
-This is an introduction to git.
-this course is based on [coderefinery](https://coderefinery.org/) lesson [git-intro](https://coderefinery.github.io/git-intro/)
-
-# How to start JupyterLab
-$ jupyter-lab
+This is an introduction to git is based on [coderefinery](https://coderefinery.org/) lesson [git-intro](https://coderefinery.github.io/git-intro/)
 
 
