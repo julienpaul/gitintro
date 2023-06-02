@@ -1,0 +1,39 @@
+{
+    "defaultTags": [
+        "parameters"
+    ],
+    "floatPosition": null,
+    "helperButtons": [],
+    //    "run-cell-and-select-next"
+    // ],
+    "leftMenu": [
+        {
+            "command": "notebook:run-cell",
+            // "command": "notebook:run-cell-and-select-next",
+            "icon": "ui-components:run",
+            // Will only display the item on code cells.
+            "cellType": "code"
+        }
+    ],
+    "rightMenu": [
+       {
+           "cellType": "markdown",
+           "command": "notebook:change-cell-to-code",
+           "icon": "@jlab-enhanced/cell-toolbar:code"
+       },
+        {
+            "cellType": "code",
+            "command": "notebook:change-cell-to-markdown",
+            "icon": "ui-components:markdown"
+        },
+        {
+            "cellType": "code",
+            "command": "jupyterlab_code_formatter:format",
+            "icon": "@jlab-enhanced/cell-toolbar:format",
+            "tooltip": "Format Cell"
+        }
+    ],
+    "leftSpace": 10,
+    // "rightMenu": null,
+    "showTags": true
+}
