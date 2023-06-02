@@ -18,5 +18,5 @@ conda activate gitintro
 ```
 Once installed, launch JupyterLab with:
 ```
-jupyter-lab
+jupyter lab
 ```

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Disable cell toolbar
+jupyter labextension disable @jupyterlab/cell-toolbar-extension
+
