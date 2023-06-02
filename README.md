@@ -13,7 +13,7 @@ https://mybinder.org/v2/gh/julienpaul/gitintro.git/HEAD
 # Install with conda
 
 ```
-conda env create -f environment.yml
+conda env create -f binder/environment.yml
 conda activate gitintro
 ```
 Once installed, launch JupyterLab with:
