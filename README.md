@@ -16,11 +16,6 @@ https://mybinder.org/v2/gh/julienpaul/gitintro.git/HEAD
 conda env create -f binder/environment.yml
 conda activate gitintro
 ```
-Once installed, launch JupyterLab with:
-```
-jupyter lab
-```
-
 ## Configure settings
 1. Run:
 ```
@@ -30,3 +25,10 @@ jupyter labextension disable @jupyterlab/cell-toolbar-extension
 ```
 cp .jupyter/lab/user-settings/@jlab-enhanced/cell-toolbar/plugin.jupyterlab-settings ~/.jupyter/lab/user-settings/@jlab-enhanced/cell-toolbar/plugin.jupyterlab-settings
 ```
+# Run
+
+Once installed, launch JupyterLab with:
+```
+jupyter lab
+```
+
