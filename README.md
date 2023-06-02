@@ -20,3 +20,13 @@ Once installed, launch JupyterLab with:
 ```
 jupyter lab
 ```
+
+## Configure settings
+1. Run:
+```
+jupyter labextension disable @jupyterlab/cell-toolbar-extension
+```
+2. Copy the config file locally:
+```
+cp .jupyter/lab/user-settings/@jlab-enhanced/cell-toolbar/plugin.jupyterlab-settings ~/.jupyter/lab/user-settings/@jlab-enhanced/cell-toolbar/plugin.jupyterlab-settings
+```
